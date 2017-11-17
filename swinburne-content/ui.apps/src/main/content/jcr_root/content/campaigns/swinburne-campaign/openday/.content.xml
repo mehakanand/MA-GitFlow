@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/default"
+        cq:lastModified="{Date}2017-11-16T14:13:16.245+11:00"
+        cq:lastModifiedBy="admin"
+        cq:targetEngine="cq_campaign"
+        cq:template="/apps/swinburne-web-enrich-campaign/templates/edmtemplate"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="OpenDay"
+        sling:resourceType="swinburne-web-enrich-campaign/components/page/edm/email-page"
+        acMapping="mapRecipient"
+        acTemplateId="mailAEMContent"
+        teaserPageType="newsletter">
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Decimal}650"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Decimal}1200"/>
+            </breakpoints>
+        </cq:responsive>
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <text
+                jcr:created="{Date}2017-11-16T14:11:54.177+11:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-11-16T14:13:16.243+11:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="swinburne-web-enrich-campaign/components/content/edm/text"
+                text="&lt;h3>&lt;span style=&quot;color: #883681;&quot;>GET ONE-ON-ONE ATTENTION&lt;/span>&lt;/h3>&#xd;&#xa;&lt;p>&lt;span style=&quot;color: #060097;&quot;>Swinburne has been &lt;g class=&quot;gr_ gr_6 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling multiReplace&quot; id=&quot;6&quot; data-gr-id=&quot;6&quot;>recognised&lt;/g> by The Good Universities Guide 2018 for our excellent student to staff ratio. We received a full five stars (which puts us in the top 20% in Australia) and the highest ranking in Victoria. It’s just one of the differences you’ll notice when you choose Swinburne.&lt;/span>&lt;/p>&#xd;&#xa;"
+                textIsRich="true"/>
+        </par>
+        <footer
+            jcr:lastModified="{Date}2017-11-16T14:12:41.481+11:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="swinburne-web-enrich-campaign/components/structure/edm/footersocial">
+            <items jcr:primaryType="nt:unstructured">
+                <item0
+                    jcr:primaryType="nt:unstructured"
+                    iconSelect="facebook"
+                    socialShareLinkLocation="https://www.facebook.com/swinburneuniversityoftechnology"/>
+                <item1
+                    jcr:primaryType="nt:unstructured"
+                    iconSelect="twitter"
+                    socialShareLinkLocation="https://twitter.com/swinburne"/>
+                <item2
+                    jcr:primaryType="nt:unstructured"
+                    iconSelect="youtube"
+                    socialShareLinkLocation="https://www.youtube.com/user/swinburne"/>
+                <item3
+                    jcr:primaryType="nt:unstructured"
+                    iconSelect="instagram"
+                    socialShareLinkLocation="http://instagram.com/swinburne"/>
+                <item4
+                    jcr:primaryType="nt:unstructured"
+                    iconSelect="linkedin"
+                    socialShareLinkLocation="http://www.linkedin.com/edu/school?id=10236"/>
+                <item5
+                    jcr:primaryType="nt:unstructured"
+                    iconSelect="tumblr"
+                    socialShareLinkLocation="http://knowing.swinburne.edu.au/"/>
+                <item6
+                    jcr:primaryType="nt:unstructured"
+                    iconSelect="globe"
+                    socialShareLinkLocation="http://www.swinburne.edu.au/choose/"/>
+            </items>
+        </footer>
+    </jcr:content>
+</jcr:root>

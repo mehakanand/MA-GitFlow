@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:lastModified="{Date}2017-11-16T15:04:02.873+11:00"
+    jcr:lastModifiedBy="admin"
+    jcr:primaryType="sling:Folder">
+    <jcr:content
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Swinburne-Assets"
+        autotag="{Boolean}true"
+        metadataSchema="/conf/global/settings/dam/adminui-extension/metadataschema/swinburne_metadata">
+        <folderThumbnail/>
+    </jcr:content>
+</jcr:root>

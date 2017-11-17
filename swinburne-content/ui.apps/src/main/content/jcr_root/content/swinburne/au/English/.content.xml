@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2017-11-03T17:13:25.960+11:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/swinburne/settings/wcm/templates/swinburne-campaign-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="en"
+        sling:resourceType="swinburne-web-enrich-campaign/components/structure/page">
+        <root
+            jcr:lastModified="{Date}2017-10-30T17:19:17.243+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2017-10-30T22:54:16.690+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-10-30T22:54:28.490+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <image
+                    jcr:created="{Date}2017-11-03T17:12:58.079+11:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2017-11-03T17:13:11.031+11:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/image"
+                    fileName="agse-building-night.jpg"
+                    height="0"
+                    width="0">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="3"
+                            width="4"/>
+                    </cq:responsive>
+                    <file/>
+                </image>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+    <test-/>
+</jcr:root>
